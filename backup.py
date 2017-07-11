@@ -8,4 +8,4 @@ zip_command="sudo zip -qr '%s' %s" % (target,' '.join(source))
 if os.system(zip_command)==0:
  print 'successfully backup to',taget
 else:
- print 'failed'
+ print 'fail'
